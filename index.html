@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книжковий рай</title>
+    <!-- Підключення шрифтів Roboto та Lora з Google Fonts -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Підключення файлу зі стилями -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Головна секція -->
+    <main class="section-main">
+        <img class="section-main-logo" src="logo.png" alt="Логотип">
+        <h1 class="section-main-title">Книжковий рай</h1>
+        <h2 class="section-main-subtitle">Відкрий для себе наступну чудову книгу</h2>
+        <button class="section-main-button" type="button">Дізнатися більше</button>
+    </main>
+
+    <!-- 2. Секція про бібліотеку -->
+    <section class="second-section">
+        <img class="second-section-img" src="library.png" alt="Зображення бібліотеки">
+        <div class="second-section-info">
+            <h3 class="section-subtitle">Ласкаво просимо до Книжкового раю</h3>
+            <h3 class="section-title">Про нашу бібліотеку</h3>
+            <p class="second-section-text">Ласкаво просимо до нашої бібліотеки, де ви знайдете широкий вибір книг для будь-якого віку та вподобань. Приходьте та насолоджуйтесь читанням у затишній атмосфері.</p>
+            <p class="second-section-name"><span class="second-section-name2">ІВАН ІВАНЕНКО</span> — засновник Книжкового раю</p>
+        </div>
+    </section>
+
+    <!-- 3. Секція з рекомендованими книгами -->
+    <section class="third-section">
+        <h3 class="section-subtitle">Рекомендовані книги</h3>
+        <h3 class="section-title">Наша колекція</h3>
+        <div class="third-section-books">
+            
+            <div class="third-section-book">
+                <img class="book-img" src="book1.jpg" alt="Книга 1">
+                <h4 class="book-title">Маленький принц</h4>
+                <p class="book-author">Антуан де Сент-Екзюпері</p>
+                <p class="book-price">150 грн</p>
+            </div>
+
+            <div class="third-section-book">
+                <img class="book-img" src="book2.jpg" alt="Книга 2">
+                <h4 class="book-title">Поліанна</h4>
+                <p class="book-author">Елеонор Портер</p>
+                <p class="book-price">180 грн</p>
+            </div>
+
+            <div class="third-section-book">
+                <img class="book-img" src="book3.jpg" alt="Книга 3">
+                <h4 class="book-title">Кульбабове вино</h4>
+                <p class="book-author">Рей Бредбері</p>
+                <p class="book-price">200 грн</p>
+            </div>
+
+            <div class="third-section-book">
+                <img class="book-img" src="book4.jpg" alt="Книга 4">
+                <h4 class="book-title">Аліса в Країні Див</h4>
+                <p class="book-author">Льюїс Керрол</p>
+                <p class="book-price">160 грн</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 4. Підвал сайту (Футер) з формою підписки -->
+    <footer class="footer">
+        <h3 class="section-title footer-title">Приєднуйтесь до нашої спільноти</h3>
+        <p class="footer-text">
+            <span class="footer-text-main">Підпишіться на нашу розсилку, щоб отримувати останні новини про новинки, ексклюзивні пропозиції та багато іншого.</span><br>
+            Для запитів, будь ласка, зв'яжіться з нами за номером (+380) 123-456-789
+        </p>
+        <form action="#" class="footer-form">
+            <p class="form-title">Ім'я</p>
+            <input type="text" id="name" class="form-input">
+            
+            <p class="form-title">Електронна пошта</p>
+            <input type="email" id="email" class="form-input">
+            
+            <p class="form-title">Телефон</p>
+            <input type="tel" id="phone" class="form-input">
+            
+            <button type="submit" class="footer-button">Підписатися</button>
+        </form>
+    </footer>
+
+</body>
+</html>
